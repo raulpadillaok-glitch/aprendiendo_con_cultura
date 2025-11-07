@@ -92,3 +92,10 @@ else
     else if(sprite_index == spr_player_walk_up) sprite_index =spr_player_idle_up
     else if(sprite_index == spr_player_walk_down) sprite_index =spr_player_idle_down
 }
+
+if(keyboard_check_pressed(vk_space))
+{
+	var _inst = instance_create_depth(x,y,depth,obj_attack);
+	_inst.image_angle = point_direction(0,0,_move_x,_move_y);
+	_inst.damage*=damage;
+}

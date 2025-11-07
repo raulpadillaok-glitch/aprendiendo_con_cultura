@@ -10,3 +10,7 @@ tilemap_col = layer_tilemap_get_id("tiles_col");
 if (tilemap_col == -1) {
     show_debug_message("¡ERROR! No se encontró la capa de colisión 'tiles_col'.");
 }
+
+hp = 10;
+hp_total = hp;
+damage = 1;
