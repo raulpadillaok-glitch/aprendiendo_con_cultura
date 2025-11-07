@@ -1,0 +1,11 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objetcs","order":1,"path":"folders/Objetcs.yy",},
+    {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_enemy_parent","order":2,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
+    {"name":"obj_enemy1","order":3,"path":"objects/obj_enemy1/obj_enemy1.yy",},
+    {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+  ],
+}
