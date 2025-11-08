@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Objetcs","order":1,"path":"folders/Objetcs.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
   ],
@@ -8,12 +9,16 @@
     {"name":"obj_button_exit","order":7,"path":"objects/obj_button_exit/obj_button_exit.yy",},
     {"name":"obj_button_options","order":6,"path":"objects/obj_button_options/obj_button_options.yy",},
     {"name":"obj_button_play","order":5,"path":"objects/obj_button_play/obj_button_play.yy",},
+    {"name":"obj_controlador_musica","order":9,"path":"objects/obj_controlador_musica/obj_controlador_musica.yy",},
     {"name":"obj_enemy_parent","order":2,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
     {"name":"obj_enemy1","order":3,"path":"objects/obj_enemy1/obj_enemy1.yy",},
+    {"name":"obj_fondo","order":8,"path":"objects/obj_fondo/obj_fondo.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"snd_musica_menu","order":1,"path":"sounds/snd_musica_menu/snd_musica_menu.yy",},
     {"name":"spr_button_exit","order":3,"path":"sprites/spr_button_exit/spr_button_exit.yy",},
     {"name":"spr_button_options","order":2,"path":"sprites/spr_button_options/spr_button_options.yy",},
     {"name":"spr_button_play","order":1,"path":"sprites/spr_button_play/spr_button_play.yy",},
+    {"name":"Sprite25","order":4,"path":"sprites/Sprite25/Sprite25.yy",},
   ],
 }
