@@ -1,3 +1,4 @@
+if(instance_exists(obj_dialog))exit;
 if(alarm[1] >= 0)
 {
 	target_x = x + kb_x;

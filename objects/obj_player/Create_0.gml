@@ -15,3 +15,27 @@ damage = 1;
 
 facing=0;
 
+level = 0;
+xp = 0;
+xp_requiere = 100;
+
+function add_xp(_xp_to_add)
+{
+	xp += _xp_to_add;
+	if(xp >= xp_requiere)
+	{
+		level++;
+		xp -= xp_requiere;
+		xp_requiere *= 1.4;
+		
+		hp_total += 5;
+		hp=hp_total;
+		damage +=0.8;
+	create_dialog([
+    {
+        name: "Estadisticas",
+        msg: $"Subiste de nivel! tus nuevas estadisticas son:\nNivel:{level}\nHP:{hp_total}\nDMG:{damage}"
+    }
+    ])	
+	}
+}
