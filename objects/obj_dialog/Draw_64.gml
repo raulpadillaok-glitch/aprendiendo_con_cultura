@@ -38,3 +38,32 @@ _dy += 40;
 
 // --- DIBUJAR MENSAJE ---
 draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 2);
+// --- DIBUJAR OPCIONES (NUEVO) ---
+var _msg_data = messages[current_message];
+
+// Solo dibujamos si el texto terminó de escribirse Y es una pregunta
+if (current_char >= string_length(_msg_data.msg) && 
+    variable_struct_exists(_msg_data, "is_question") && 
+    _msg_data.is_question == true) 
+{
+    var _opt_x = _dx + 20;     // Un poco a la derecha
+    var _opt_y = _dy + 60;     // Debajo del texto principal
+    var _spacing = 30;         // Espacio entre opciones
+    
+    for (var i = 0; i < array_length(_msg_data.options); i++) {
+        
+        // Si es la opción seleccionada, cambiar color y poner una flecha ">"
+        if (i == menu_index) {
+            draw_set_color(c_yellow);
+            draw_text(_opt_x - 15, _opt_y + (i * _spacing), ">");
+        } else {
+            draw_set_color(c_white);
+        }
+        
+        // Dibujar la opción (el número)
+        draw_text(_opt_x, _opt_y + (i * _spacing), _msg_data.options[i]);
+    }
+    
+    // Restaurar color
+    draw_set_color(c_white);
+}

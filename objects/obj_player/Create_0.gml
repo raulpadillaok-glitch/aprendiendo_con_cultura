@@ -1,6 +1,6 @@
 // Evento Create de obj_player
 
-move_speed = 2;
+move_speed = 1.5;
 
 tilemap = layer_tilemap_get_id("Tiles_Col");
 

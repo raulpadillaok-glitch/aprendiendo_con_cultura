@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc1",
-  "eventList":[],
-  "managed":true,
-  "name":"obj_npc1",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.welcome_dialog",},
+  "%Name":"obj_npc_matematicas",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
+  "managed":true,
+  "name":"obj_npc_matematicas",
+  "overriddenProperties":[],
   "parent":{
     "name":"Objetcs",
     "path":"folders/Objetcs.yy",

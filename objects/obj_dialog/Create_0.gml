@@ -6,3 +6,11 @@ char_speed = 1;        // Velocidad de la "máquina de escribir"
 input_key = vk_space;  // Tecla para avanzar
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();
+
+// --- NUEVAS VARIABLES PARA MENÚ ---
+menu_index = 0;         // En qué opción está el cursor
+input_up = ord("W");    // Tecla para subir
+input_down = ord("S");  // Tecla para bajar
+opcion_seleccionada = false; // Para evitar pulsar múltiples veces
+
+next_room = false;

@@ -5,7 +5,7 @@
 switch (room) 
 {
     // --- CASO 1: Si estamos en el menú ---
-    case rm_menu:
+    case rm_game:
         // Revisa si la música del menú NO está sonando ya
         if (musica_actual != snd_musica_menu) 
         {
@@ -18,7 +18,7 @@ switch (room)
         break; // Termina el caso del menú
 
     // --- CASO 2: Si estamos en el juego ---
-    case rm_game:
+    case rm_menu:
         // Revisa si la música del juego NO está sonando ya
         if (musica_actual != snd_musica_juego) 
         {
